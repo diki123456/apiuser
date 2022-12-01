@@ -1,0 +1,9 @@
+const scenarios = {
+    "createuser" = "[@crateuser] create user api",
+    testcases = {
+        case1 = "[tc1] verify create user api return 200 when using request data",
+        case2 = "[tc2] verify create user api return 400 when using data age 0",
+        case3 = "[tc3] verify create user api return 400 when using data id null",
+        case4 = "[tc4] verify create user api return 400 when using data hoby emptyarray",
+    }
+}
